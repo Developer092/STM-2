@@ -1,0 +1,50 @@
+AIM: Recording in context sensitive mode and analog mode using Selenium IDE
+
+ Objective:
+  Student should be able to
+  Describes Context Sensitive mode
+  Record a test script
+  Read the test script
+  Run the recorded test and analyze the results
+ 
+ Context Sensitive Recording mode
+ 
+  It is the default mode of recording which takes full advantage of Quick Test Professional's test
+ object model.
+  It recognizes objects in the application regardless of their location on the screen.
+ 
+ It records the operations that are preformed in an application by identifying the GUI objects.
+ 
+ Analog recording
+ 
+  records the inputs from keyboard, mouse clicks, the x and y coordinates that are travelled by 
+the mouse pointer across the screen.
+  It can’t capture GUI windows and objects.
+ 
+ Procedure:
+ 
+ ( I ) Recording (recording user interactions with the browser)
+  Step1:Name the project as "Demo Test".
+  Step2: Name the test case as "Demo1 test".
+  Step 3: Click on the "Start Recording" Button present on the top right corner on the IDE to 
+start recording the test case.
+  Step 4: Type https://avniet.ac.in in the search box.
+  Step 5: Hit enter to go to home page
+  Step 6: It will redirect you to the that webpage and what operations you perform will be recorded.
+ Meanwhile, you will get the notifications of the actions performed by the IDE at the extreme
+ right corner of your web browser.
+  Step 7: Now, go the IDE and click on the "Stop Recording" button to stop recording your actions
+ further.
+ 
+ (II) Playing back (executing the recorded script)
+ o Click on the "Run Current Test" button present on the tool bar menu of the IDE.
+ It will execute all of your interactions with the browser and gives you an overall summary of the
+ executed test script.
+ o Run Tests
+ It allows you to run the currently selected test. When only a single test is loaded "Run Test" button
+ and "Run all" button have the same effect.
+ 
+(III ) Saving the test suite
+ o Click on the save button present on the extreme right corner of the menu bar.
+ o save the entire test suite as "Demo Test".
+ 
