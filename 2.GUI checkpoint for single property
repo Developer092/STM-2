@@ -1,0 +1,36 @@
+AIM: GUI checkpoint for single property
+
+ Objective: Student should be able to
+  Explain how to check the behavior of GUI objects
+  Create a test that checks GUI objects
+  Run the test on different versions of an application and examine the results
+ Graphical    User    Interface: 
+ GUI testing evaluates design elements such as layout, colors, fonts, font sizes, labels, text 
+boxes, text formatting, captions, buttons, lists, icons, links and content.
+  GUI testing processes can be either done by the two categories are manual or automatic, and 
+are often performed by third -party companies, rather than developers or end users.
+  It can be require a lot of programming and is time consuming whether manual or automatic.
+  Usually the software author writes out the intended function of a menu or graphical button.
+  GUI testing also tends to test for certain program behaviors that users expect, like an 
+hourglass when the program is busy.
+
+ Procedure:
+  Step 1: open selenium IDE and open a new test
+  Step 2: Name the project as "Demo Test".
+  Step 3: Name the test case as "singleproperty_test".
+  Step 4: Click on the "Start Recording" Button present on the top right corner on the IDE to 
+start recording the test case.
+  It will redirect you to the Google search engine page.
+  Step 5: Type "calculator.com" in the Google search box.
+  Step 6: Hit enter to get the search results.Click on the link provided under the 
+URLhttps://www.calculator.com
+  Step 7: Perform certain operation for single property
+ 17
+ Step 8:After recording the single click then stop the recording
+  Step 9: Click on the "Run Current Test" button present on the tool bar menu of the IDE.
+ It will execute all of your interactions with the browser and gives you an overall summary of the
+ executed test script.
+  Step 10: give command and target to perform test and value as webpage address
+  Step 11: create GUI checkpoint for the click /enter of value to perform operation.
+  Step 12: will now check in log and reference about the GUI checkpoint and whether the test is successful or 
+failure.
