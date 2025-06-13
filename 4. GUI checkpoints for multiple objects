@@ -1,0 +1,23 @@
+Objective :   Student should be able to
+  Explain how to check the behavior of GUI objects
+  Create a test that checks GUI multiple objects
+  Run the test on different versions of an application and examine the results
+ 
+ Procedure:
+  Step 1:open selenium IDE and open a new test
+  Step 2:Name the project as "Demo Test".
+  Step 3: Name the test case as "multipleproperty_test".
+  Step 4: Click on the "Start Recording" Button present on the top right corner on the IDE to 
+start recording the test case.
+  It will redirect you to the Google search engine page.
+  Step 5: Type "calculator.com" in the Google search box.
+  Step 6: Hit enter to get the search results.Click on the link provided under the 
+URLhttps://www.calculator.com
+  Step 7: Perform certain operation for Multiple property
+  Step 8: After recoeding the single click then stop the recording
+  Step 9: Click on the "Run Current Test" button present on the tool bar menu of the IDE.
+ It will execute all of your interactions with the browser and gives you an overall summary of the
+ executed test script.
+  Step 10: Give command and target to perform test and value as webpage address
+  Step 11: if the click GUI checkpoint on multiple objects or navigating from one window to another is noted
+ in reference block and in log section to check whether the test is successful or a failure
